@@ -112,13 +112,13 @@ const FormVal = () => {
                         required
                         name="confirmpassword"
                         value={fromdata.confirmpassword}
-                        className="border-2 p-2 sm:w-[400px] w-full  border-[#1EADB6] text-gray-900 outline-none"
+                        className="border-2 p-2 sm:w-[400px] w-full  border-[#1EADB6]  text-gray-900 outline-none"
                     />
                     {Fromerror.confirmpassword && (
                         <p className="error-message">{Fromerror.confirmpassword}</p>
                     )}
 
-                    <input className="bg-green p-3 rounded-[8px] mt-5 cursor-pointer  bg-[#1EADB6] font-medium" type="submit" />
+                    <input className="bg-green p-3 rounded-[8px] mt-5 cursor-pointer hover:bg-[#5e979b] transition-all duration-300 bg-[#1EADB6] font-medium" type="submit" />
                 </form>
             </div>
             <div
