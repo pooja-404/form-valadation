@@ -65,7 +65,7 @@ const FormVal = () => {
         <div className=" min-h-screen  flex justify-center items-center">
             <div
                 className={`${pop ? " blur-lg" : "blur-0"
-                    } border px-7 py-10  bg-[#eaf8f5]  duration-300 rounded-[8px]  inline-block `}
+                    }  px-7 py-10  bg-[#eaf8f5]  duration-300 rounded-[8px]  inline-block `}
             >
                 <h1 className="text-black mb-3 font-black text-center pb-3 text-3xl">
                     Form Validation
